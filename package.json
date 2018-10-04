@@ -1,0 +1,44 @@
+{
+    "name": "react-fullscreen-form",
+    "version": "0.0.1",
+    "description": "Put a description here",
+    "author": {
+        "name": "Mustafa Turgay Kadayıfçı",
+        "email": "mtkadayifci@gmail.com",
+        "url": "https://github.com/mtkadayifci"
+    },
+    "main": "build/index.js",
+    "peerDependencies": {
+        "react": "^16.4.2"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.0",
+        "prop-types": "^15.6.2",
+        "react": "^16.4.2",
+        "webpack": "^4.20.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+        "@babel/plugin-transform-react-jsx": "^7.0.0",
+        "@babel/preset-env": "^7.1.0",
+        "babel-loader": "^8.0.4",
+        "css-loader": "^1.0.0",
+        "eslint": "^5.4.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.1",
+        "file-loader": "^2.0.0",
+        "react-svg-loader": "^2.1.0",
+        "style-loader": "^0.23.0",
+        "webpack-cli": "^3.1.2"
+    }
+}
